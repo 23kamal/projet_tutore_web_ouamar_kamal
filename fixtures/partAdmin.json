@@ -1,0 +1,19 @@
+{
+  "type": "1",
+  "username": "1684333538821AUTO.PART@test.com",
+  "prenom": "AUTO",
+  "nom": "PART",
+  "password": "Sogeti33",
+  "confirmPassword": "Sogeti33",
+  "adresse": "1",
+  "ville": "Nice",
+  "pays": "France",
+  "codePostal": "06000",
+  "passport": "1234456789",
+  "cin": "123456789",
+  "dateNaissance": "2000-08-10",
+  "tel": "0605040302",
+  "nomConjoint": "AUTO",
+  "prenomConjoint": "conjoint",
+  "dateNaissanceConjoint": "2000-08-10"
+}

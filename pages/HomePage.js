@@ -20,5 +20,5 @@ class HomePage {
 
 }
 export default HomePage
-require('@cypress/xpath');
+require('@cypress/xpath')
 
