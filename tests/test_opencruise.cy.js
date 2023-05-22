@@ -15,7 +15,7 @@ describe("OpenCruise", () => {
 
   it("TC01-CONNEXION VALIDE AVEC USER ADMIN", () => {
     //Assertion Etant sur page login
-    cy.url().should('include','/login')
+    cy.url().should('include', '/login')
     // SE CONNECTER 
     const loginStep = new LoginStep()
     loginStep.setLogin(Cypress.env("admin"), Cypress.env("pass"))
@@ -121,7 +121,7 @@ describe("OpenCruise", () => {
     cy.get('@part').then((data) => {
       data = addPart.AddPart(data)
       cy.writeFile("cypress/fixtures/partAdmin.json", JSON.stringify(data, null, 2), 'utf8')
-      cy.url().should('include','login')
+      cy.url().should('include', 'login')
       //TC06-02- VERIFIER COMPTE BLOQUE
       //Se CONNECTER AVEC NOUVEAU COMPTE
       loginStep.setLogin(data.username, data.password)
