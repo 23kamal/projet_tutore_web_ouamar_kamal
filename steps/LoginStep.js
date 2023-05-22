@@ -14,3 +14,4 @@ class LoginStep {
 
 }
 export default LoginStep
+require('@cypress/xpath')

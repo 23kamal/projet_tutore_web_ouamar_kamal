@@ -12,7 +12,7 @@ class HomePage {
     }
 
     getTitle() {
-        return cy.get('h1')
+        return cy.get('p')
   
     }
 
