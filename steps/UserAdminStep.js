@@ -42,7 +42,7 @@ class UserAdminStep {
 
           
           cy.get(':nth-child(4) > .btn').click()
-          .screenshot()
+          cy.screenshot()
 
           //assertion : page d'accueil
           cy.get('#adminConfig > .mat-icon').should('be.visible')

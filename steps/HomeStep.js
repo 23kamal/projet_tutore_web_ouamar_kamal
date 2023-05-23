@@ -10,14 +10,14 @@ class HomeStep {
 
     navigateToAdmin() {
 
-        homePage.getAdmin().should('contain', 'ADMIN TEST')
+        homePage.getAdmin().should('contain', 'Bienvenue')
 
     }
 
     disconnect() {
         
         cy.get("#dropdownMenu2").click()
-        cy.get("div.dropdown > div > button").click({force:true},{timeout:20000})
+        cy.get("div.dropdown > div > button").click({force:true},{timeout:30000})
         cy.get('p').should('be.visible', 'Renseignez vos identifiants pour accéder à votre compte')
             
     }

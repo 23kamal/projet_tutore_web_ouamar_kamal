@@ -39,7 +39,8 @@ cy.get('form.ng-touched > .signup-form > .container > .row.ng-star-inserted > :n
 cy.get('form.ng-touched > .signup-form > .container > .row.ng-star-inserted > :nth-child(3) > .form-group > .custom-select').select(data.nombreSalarie)
 
 cy.get(':nth-child(5) > .btn').click()
-.screenshot()
+
+cy.screenshot()
 
 //assertion : page d'accueil
 cy.get('#adminConfig > .mat-icon').should('be.visible')
